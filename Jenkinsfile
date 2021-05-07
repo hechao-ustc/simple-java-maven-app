@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3.6.3'
-            args '-v /Users/hechao/java/apache-maven-3.6.3/bin/m2.conf:/root/.m2'
+            args '-v /Users/hechao/java/apache-maven-3.6.3:/root/.m2'
         }
     }
     stages {
