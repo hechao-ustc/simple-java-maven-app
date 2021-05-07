@@ -1,44 +1,45 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'maven:3.6.3'
+            args '-v /Users/hechao/java/apache-maven-3.6.3/maven-repo:/root/.m2'
+        }
+    }
     stages {
-        stage('Static Inspect') {
+        stage('Compile') {
             steps {
-                bat 'mvn clean'
+                sh 'mvn -B clean compile'
             }
         }
-        stage('Compile and Package') {
+        stage('Test') {
             steps {
-                bat 'mvn clean'
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
             }
         }
-        stage('Unit Test') {
+        stage('Site') {
             steps {
-                bat 'mvn clean'
+                sh 'mvn site'
+            }
+            post {
+                always {
+                    cobertura autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: 'target/site/cobertura/coverage.xml', conditionalCoverageTargets: '70, 0, 0', failUnhealthy: false, failUnstable: false, lineCoverageTargets: '80, 0, 0', maxNumberOfBuilds: 0, methodCoverageTargets: '80, 0, 0', onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false
+                    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'target/site', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: 'site report'])
+                }
             }
         }
-        stage('Component Test') {
+//         stage('tzs check') {
+//             steps {
+//                 input "Does the staging environment look ok?"
+//             }
+//         }
+        stage('Deliver') {
             steps {
-                bat 'mvn clean'
-            }
-        }
-        stage('Smoke/Acceptance Test') {
-            steps {
-                bat 'mvn clean'
-            }
-        }
-        stage('Deploy to Testing Env') {
-            steps {
-                bat 'mvn clean'
-            }
-        }
-        stage('Performance Test') {
-            steps {
-                bat 'mvn clean'
-            }
-        }
-        stage('Deploy to Production Env') {
-            steps {
-                bat 'mvn clean'
+                sh './jenkins/scripts/deliver.sh'
             }
         }
     }
