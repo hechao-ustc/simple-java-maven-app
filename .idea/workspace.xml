@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae77bf71-f6d4-4bc2-a0a3-8f8e6254a6f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/Jenkinsfile0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/Jenkinsfile0" afterDir="false" />
-    </list>
+    <list default="true" id="ae77bf71-f6d4-4bc2-a0a3-8f8e6254a6f3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,11 +45,17 @@
       <workItem from="1620387043420" duration="7000" />
       <workItem from="1620388714131" duration="2000" />
       <workItem from="1620388987321" duration="4791000" />
-      <workItem from="1620398197997" duration="377000" />
+      <workItem from="1620398197997" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="66" key="SettingsEditor" timestamp="1620398966101">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="221" y="66" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1620398966101" />
   </component>
 </project>
