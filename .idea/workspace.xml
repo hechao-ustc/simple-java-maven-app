@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae77bf71-f6d4-4bc2-a0a3-8f8e6254a6f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/simple-java-maven-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simple-java-maven-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae77bf71-f6d4-4bc2-a0a3-8f8e6254a6f3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +79,7 @@
       <workItem from="1620388987321" duration="4791000" />
       <workItem from="1620398197997" duration="2878000" />
       <workItem from="1620402911113" duration="237000" />
+      <workItem from="1620403300187" duration="299000" />
     </task>
     <servers />
   </component>
@@ -94,5 +91,9 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1620402286974" />
+    <state x="418" y="59" width="604" height="735" key="find.popup" timestamp="1620403344765">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="418" y="59" width="604" height="735" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1620403344765" />
   </component>
 </project>
