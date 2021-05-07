@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae77bf71-f6d4-4bc2-a0a3-8f8e6254a6f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/11simple-java-maven-app/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/11simple-java-maven-app/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11simple-java-maven-app/jenkins/Jenkinsfile0" beforeDir="false" afterPath="$PROJECT_DIR$/11simple-java-maven-app/jenkins/Jenkinsfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <updated>1620387039450</updated>
       <workItem from="1620387043420" duration="7000" />
       <workItem from="1620388714131" duration="2000" />
-      <workItem from="1620388987321" duration="2262000" />
+      <workItem from="1620388987321" duration="4398000" />
     </task>
     <servers />
   </component>
