@@ -19,3 +19,6 @@ Y
 )src/main/java/com/mycompany/app/App1.java,0/6/06db47749a974a13238adbcf9dd4dbe823c190a2
 ]
 -src/test/java/com/mycompany/app/App2Test.java,c/c/cc0d1211e861f3d9bd01c0fbb9676e4ec7facaf4
+:
+
+my-app.iml,a/a/aab2cac370f8689abf772df70ebe03dfabe0f0b3
